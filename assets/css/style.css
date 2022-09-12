@@ -23,14 +23,14 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 325%;
     padding-left: 15px;
 }
 
 /* Navigation bar */
 
 #nav-bar {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 1px;
     line-height: 75px;
 }
@@ -62,4 +62,15 @@ h1 {
     background: url(../images/hero-image3.jpeg) no-repeat center center;
 }
 
+/* Welcome Page Content */
 
+#welcome-page {
+    height: 750px;
+}
+
+#welcome-text {
+    padding-top: 50px;
+    width: 50%;
+    float: center;
+    margin: auto;
+}
