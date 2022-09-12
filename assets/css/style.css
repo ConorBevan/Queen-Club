@@ -32,6 +32,7 @@ h1 {
 #nav-bar {
     font-size: 110%;
     letter-spacing: 1px;
+    line-height: 75px;
 }
 
 #nav-bar li {
@@ -39,3 +40,26 @@ h1 {
     list-style-type: none;
     margin-right: 20px;
 }
+
+#nav-bar a {
+    text-decoration: none;
+    color: orange;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid orange;
+}
+
+.current {
+    border-bottom: 1px solid orange;
+}
+
+/* hero-image */
+
+#hero-image {
+    height: 770px;
+    width: 100%;
+    background: url(../images/hero-image3.jpeg) no-repeat center center;
+}
+
+
