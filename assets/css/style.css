@@ -65,11 +65,17 @@ h1 {
 /* Welcome Page Content */
 
 #welcome-page {
-    height: 750px;
+    height: 1000px;
+}
+
+#Welcome {
+    text-align: center;
+    margin: 75px 0;
+    font-size: 300%;
 }
 
 #welcome-text {
-    padding-top: 50px;
+    padding-top: 0;
     width: 50%;
     float: center;
     margin: auto;
