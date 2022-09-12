@@ -65,7 +65,7 @@ h1 {
 /* Welcome Page Content */
 
 #welcome-page {
-    height: 1000px;
+    height: 500px;
 }
 
 #Welcome {
@@ -81,6 +81,26 @@ h1 {
     margin: auto;
 }
 
+/* History Page Content */
+
+#history-page {
+    height: 500px;
+}
+
+#History {
+    text-align: center;
+    margin: 75px 0;
+    font-size: 300%;
+}
+
+#history-text {
+    padding-top: 0;
+    width: 50%;
+    float: center;
+    margin: auto;
+}
+
+
 /* Footer */
 
 footer {
@@ -89,6 +109,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    background-color: black;
 }
 
 .social-networks > li {
