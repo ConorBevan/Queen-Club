@@ -18,10 +18,10 @@
         <nav>
             <ul id="nav-bar">
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="current">Contact</a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="current">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
                     <a href="history.html">History</a>
@@ -37,28 +37,38 @@
         <div id="hero-image"></div>
     </section>
 
-    <section id="photos">
-        <img src="assets/images/Pic-1.jpeg" alt="">
-        <img src="assets/images/pic-2.jpg" alt="">
-        <img src="assets/images/pic-3.webp" alt="">
-        <img src="assets/images/pic-4.jpeg" alt="">
-        <img src="assets/images/pic-5.jpeg" alt="">
-        <img src="assets/images/pic-6.webp" alt="">
-        <img src="assets/images/pic-7.jpeg" alt="">
-        <img src="assets/images/pic-8.jpeg" alt="">
-        <img src="assets/images/pic-9.jpeg" alt="">
-        <img src="assets/images/pic-10.jpeg" alt="">
-        <img src="assets/images/pic-11.jpeg" alt="">
-        <img src="assets/images/pic-12.webp" alt="">
-        <img src="assets/images/pic-13.webp" alt="">
-        <img src="assets/images/pic-14.webp" alt="">
-        <img src="assets/images/pic-15.webp" alt="">
-        <img src="assets/images/pic-16.webp" alt="">
-        <img src="assets/images/pic-17.webp" alt="">
-        <img src="assets/images/pic-18.webp" alt="">
-        <img src="assets/images/pic-19.webp" alt="">
-        <img src="assets/images/pic-20.webp" alt="">
-    </section>
+    <div class="container">
+        <form action="action_page.php">
+            <h2 style="text-align: center; display: flex; margin: 75px 0;">We want to learn more about your first hand experinces with Queen, share with us your stories and your photod youd wish to be added to our gallery</h2>
+      
+          <label for="fname"><b><em>First Name:</em></b></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname"><b><em>Last Name:</em></b></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email"><b><em>Enter Your Email:</em></b></label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="region"><b><em>Region</em></b></label>
+          <select id="region" name="region">
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="caribbean">Carribean</option>
+            <option value="central-america">Central America</option>
+            <option value="europe">Europe</option>
+            <option value="north-america">North America</option>
+            <option value="oceania">Oceania</option>
+            <option value="south-america">South America</option>
+          </select>
+      
+          <label for="subject"><b><em>Your Stories:</em></b></label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 
     <footer>
         <ul class="social-networks">
