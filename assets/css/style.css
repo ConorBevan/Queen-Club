@@ -220,7 +220,7 @@ input[type=text], select, textarea {
 
   /* Media Queries */
 
-  /* large to meduim */
+  /* large to medium */
 @media screen and (max-width: 1200px) {
     #welcome-page {
         width: 65%;
@@ -235,6 +235,19 @@ input[type=text], select, textarea {
         padding: 0;
     }
 }
+
+/* medium to small */
+ @media screen and (max-width:950px) {
+    #nav-bar {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+ }
     
-}
+
+
+
 
