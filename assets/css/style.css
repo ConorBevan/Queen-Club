@@ -73,7 +73,7 @@ h2 {
 /* Welcome Page Content */
 
 #welcome-page {
-    height: 500px;
+    height: 1200px;
 }
 
 #Welcome {
@@ -89,10 +89,18 @@ h2 {
     margin: auto;
 }
 
+#in-memory {
+    height: 400px;
+}
+
+#left-memory {
+    
+}
+
 /* History Page Content */
 
 #history-page {
-    height: 2500px;
+    height: 3700px;
 }
 
 #History {
@@ -135,13 +143,19 @@ footer {
 
 #photos {
     clear: both;
-    line-height: 0;
+    margin-top: 10px;
+    line-height: 2rem;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 10px;
+    background-color: orange;
 }
 
 #photos > img {
     width: 100%;
+}
+
+#gallery-page {
+    background-color: orange;
 }
 
 /* Contact Page */
