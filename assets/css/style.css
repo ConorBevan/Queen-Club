@@ -92,7 +92,7 @@ h2 {
 #in-memory {
     height: 500px;
     text-align: center;
-    margin: 75px 0;
+    margin: 75px 75px;
 }
 
 #fred {
@@ -220,24 +220,9 @@ input[type=text], select, textarea {
 
   /* Media Queries */
 
-  /* large to medium */
-@media screen and (max-width: 1200px) {
-    #welcome-page {
-        width: 65%;
-        height: 800px;
-        margin: 0 auto;
-    }
+  /*@media screen and (max-width: 1200px) {} */
 
-    #in-memory {
-        clear: both;
-        width: 100%;
-        display: none;
-        padding: 0;
-    }
-}
-
-/* medium to small */
- @media screen and (max-width:950px) {
+@media screen and (max-width: 850px) {
     #nav-bar {
         clear: left;
         float: left;
@@ -245,9 +230,14 @@ input[type=text], select, textarea {
         margin-bottom: 20px;
         line-height: 25px;
     }
- }
-    
 
+    #photos {
+        column-count: 2;
+    }
+}
 
-
-
+    @media screen  and (max-width: 550px) {
+    #photos {
+        column-count: 1;
+    }
+}
