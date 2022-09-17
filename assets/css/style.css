@@ -34,6 +34,12 @@ h2 {
     padding-left: 15px;
 }
 
+#page-title {
+    text-align: center;
+    margin: 75px 0;
+    font-size: 300%;
+}
+
 /* Navigation bar */
 
 #nav-bar {
@@ -72,7 +78,7 @@ h2 {
 /* Welcome Page Content */
 
 #welcome-page {
-    height: 350px;
+    height: 750px;
 }
 
 #Welcome {
@@ -88,23 +94,47 @@ h2 {
     margin: auto;
 }
 
-#in-memory {
-    height: 550px;
-    text-align: center;
-    margin: 75px 75px;
-}
-
-#fred {
-    width: 450px;
-    height: 350px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: #100c08;
-    border-width: 1px;
-}
-
 p {
     text-align: center;
+}
+
+blockquote {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 5rem auto;
+    padding: .5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Times', sans-serif;
+    text-align: center;
+    color:#100c08
+}
+
+blockquote::before {
+    content: '\201c';
+    top: 10px;
+    left: -40px;
+}
+
+blockquote::after {
+    content: '\201d';
+    bottom: -30px;
+    right: -40px;
+}
+
+blockquote::before, blockquote::after {
+    font-size: 6rem;
+    position: absolute;
+}
+
+blockquote cite {
+    display: block;
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #100c08;
+    top: 120%;
 }
 
 /* History Page Content */
@@ -128,6 +158,11 @@ p {
 
 .band-history {
     text-align: start;
+}
+
+.band-heading {
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 /* Footer */
@@ -154,22 +189,42 @@ footer {
 
 /* Gallery */
 
-#photos {
-    clear: both;
-    margin-top: 10px;
-    line-height: 2rem;
-    column-count: 3;
-    column-gap: 10px;
-    background-color: #FEBE10;
-}
+#gallery {
+    line-height: 0;
+    column-count:3;
+    column-gap:10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 200px;
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:10px;
+    border-radius: 5px;
+ }
 
 #photos > img {
     width: 100%;
 }
 
-#gallery-page {
-    background-color: #FEBE10;
+.btn {
+    margin: 40px 0 70px 0;
+    padding: 25px 20px;
+    border-radius: 5px;
+    background: #FEBE10;
+    width: 33.3%;
+    align-items: center;
 }
+
+.btn a {
+    color: #100c08;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 
 /* Contact Page */
 
@@ -238,13 +293,13 @@ input[type=text], select, textarea {
         line-height: 25px;
     }
 
-    #photos {
+    #gallery {
         column-count: 2;
     }
 }
 
     @media screen  and (max-width: 550px) {
-    #photos {
+    #gallery {
         column-count: 1;
     }
 }
