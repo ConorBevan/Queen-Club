@@ -29,9 +29,9 @@ h2 {
 }
 
 #logo {
-    float: left;
+    float: right;
     font-size: 325%;
-    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #page-title {
@@ -42,31 +42,37 @@ h2 {
 
 /* Navigation bar */
 
-#nav-bar {
+#hamnav {
     font-size: 120%;
     letter-spacing: 1px;
-    line-height: 75px;
-}
-
-#nav-bar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-}
-
-#nav-bar a {
-    text-decoration: none;
+    line-height: 70px;
+    background-color: #100c08;
+  }
+  
+  /* (B) HORIZONTAL MENU ITEMS */
+  #hamitems { display: flex; }
+  #hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
     color: #FEBE10;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .current {
+    background-color: #171717;
 }
 
-#nav-bar a:hover {
-    border-bottom: 2px solid #FEBE10;
+  #hamitems a:hover { 
+    color: #FEBE10; 
+    text-decoration: underline;
 }
-
-.current {
-    border-bottom: 2px solid #FEBE10;
+  
+  #hamnav label, #hamburger { 
+    display: none; 
 }
-
 
 /* hero-image */
 
@@ -174,7 +180,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    background-color: #556676;
+    background-color: #100c08;
 }
 
 .social-networks > li {
@@ -298,21 +304,44 @@ input[type=text], select, textarea {
   /*@media screen and (max-width: 1200px) {} */
 
 @media screen and (max-width: 850px) {
-    #nav-bar {
+  /*  #nav-bar {
         clear: left;
         float: left;
         margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
     }
+    */
 
     #gallery {
         column-count: 2;
     }
+
+    /* (A) BREAK INTO VERTICAL MENU */
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+      }
+     
+      /* (B) SHOW HAMBURGER ICON */
+      #hamnav label { 
+        display: inline-block; 
+        color: #FEBE10;
+        background: #100c08;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+    
+      /* (C) TOGGLE SHOW/HIDE MENU */
+      #hamitems { display: none; }
+      #hamnav input:checked ~ #hamitems { display: block; }
 }
 
     @media screen  and (max-width: 550px) {
     #gallery {
         column-count: 1;
     }
-    }
+  }
