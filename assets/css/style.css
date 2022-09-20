@@ -312,3 +312,35 @@ input[type=text], select, textarea {
   #thanks {
     line-height: 250px;
   }
+
+
+
+  /* Footer */
+
+footer {
+    height: 50px;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: #0d3562;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #FEBE10;
+}
+
+.social-networks i::after {
+    color: #FEBE10;
+}
+
+.social-networks i:hover {
+    opacity: 0.7;
+}
