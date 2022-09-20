@@ -7,6 +7,25 @@
 }
 
 
+/* Headings + Paragraphs */
+
+#page-title {
+    text-align: center;
+    margin: 75px 0;
+    font-size: 350%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #FEBE10;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 /* Header + Nav Menu */
 
 .header {
