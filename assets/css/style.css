@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@100;200;300;400;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 
@@ -178,7 +177,7 @@ blockquote cite {
 .band-heading {
     margin-top: 50px;
     margin-bottom: 15px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -205,20 +204,13 @@ blockquote cite {
     width: 100%;
 }
 
-@keyframes zoominoutsinglefeatured {
-    0% {
-        transform: scale(1,1);
-    }
-    50% {
-        transform: scale(.9,.9);
-    }
-    100% {
-        transform: scale(1,1);
-    }
-}
-
 #photos img {
 	animation: zoominoutsinglefeatured 5s forwards;
+}
+
+img:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn {
@@ -384,7 +376,7 @@ footer {
     }
 }
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 650px) {
     #gallery {
         column-count: 1;
     }
@@ -399,7 +391,7 @@ footer {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -400px;
+        right: -200px;
         text-align: left;
         z-index: 2;
         transition: 1s;
@@ -420,5 +412,35 @@ footer {
 
 
 @media  screen and (max-width: 450px) {
-  
+    #gallery {
+        column-count: 1;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #0d3562;
+        height: 100vh;
+        width: 200;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: #FEBE10;
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }  
 }
