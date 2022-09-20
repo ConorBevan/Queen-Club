@@ -319,6 +319,8 @@ footer {
 
 
 
+/* Media Queries */
+
 @media  screen and (max-width: 1200px) {
     #gallery {
         column-count: 2;
