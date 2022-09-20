@@ -11,52 +11,46 @@
     <title>Queen Club</title>
 </head>
 <body>
-    <header>
-        <a href="home.html">
-            <h1 id="logo">Queen Club</h1>
-        </a>
+<header>
+    <section class="header">
         <nav>
-            <ul id="nav-bar">
-                <li>
-                    <a href="contact.html" class="current">Contact</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="history.html">History</a>
-                </li>
-                <li>
-                    <a href="home.html">Welcome</a>
-                </li>
-            </ul>
+            <div class="logo">
+            <a href="home.html">QUEEN CLUB</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-    </header>
-
-    <section>
-        <div id="hero-image"></div>
     </section>
+</header>
 
     <div>
         <h1 id="page-title">Contact Form</h1>
         <p id="contact-info">We want to learn more about your experinces, share with us your stories
             and your personal encounters with Queen in the contact form below. Any photos you would wish
-            to be added to our gallery email: <em><b>queen.club@gmail.com</b></em> with your submissions.</p>
+            to be added to our gallery email: <b>queen.club@gmail.com</b> with your submissions.</p>
     </div>
 
     <div class="container">
         <form action="action_page.php">
       
-          <label for="fname"><b><em>First Name:</em></b></label>
+          <label for="fname"><b>First Name:</b></label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
-          <label for="lname"><b><em>Last Name:</em></b></label>
+          <label for="lname"><b>Last Name:</b></label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-          <label for="email"><b><em>Enter Your Email:</em></b></label>
+          <label for="email"><b>Enter Your Email:</b></label>
           <input type="text" id="email" name="email" placeholder="Your email..">
       
-          <label for="region"><b><em>Region</em></b></label>
+          <label for="region"><b>Region</b></label>
           <select id="region" name="region">
             <option value="africa">Africa</option>
             <option value="asia">Asia</option>
@@ -68,7 +62,7 @@
             <option value="south-america">South America</option>
           </select>
       
-          <label for="subject"><b><em>Your Stories:</em></b></label>
+          <label for="subject"><b>Your Stories:</b></label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
           
           <form action="thank.html">
@@ -94,7 +88,17 @@
         </ul>
     </footer>
 
-    <!-- Fontawesome Script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c939e03c3f.js" crossorigin="anonymous"></script>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu () {
+            navLinks.style.right = "0";
+        }
+        function hideMenu () {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
