@@ -11,30 +11,24 @@
     <title>Queen Club</title>
 </head>
 <body>
-    <header>
-        <a href="home.html">
-            <h1 id="logo">Queen Club</h1>
-        </a>
+    <section class="header">
         <nav>
-            <ul id="nav-bar">
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="history.html" class="current">History</a>
-                </li>
-                <li>
-                    <a href="home.html">Welcome</a>
-                </li>
-            </ul>
+            <div class="logo">
+            <a href="home.html">QUEEN CLUB</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-    </header>
-    <section>
-        <div id="hero-image"></div>
     </section>
+
     <section id="history-page">
             <h1 id="page-title">Band History</h1>
             <div id="history-text">
@@ -228,7 +222,17 @@
         </ul>
     </footer>
 
-    <!-- Fontawesome Script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c939e03c3f.js" crossorigin="anonymous"></script>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu () {
+            navLinks.style.right = "0";
+        }
+        function hideMenu () {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
