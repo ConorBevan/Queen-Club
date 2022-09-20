@@ -12,26 +12,22 @@
 </head>
 <body>
     <header>
-        <a href="home.html">
-            <h1 id="logo">Queen Club</h1>
-        </a>
-        <!-- (A) MENU WRAPPER -->
-    <nav id="hamnav">
-    <!-- (B) THE HAMBURGER -->
-    <label for="hamburger">&#9776;</label>
-    <input type="checkbox" id="hamburger"/>
-   
-    <!-- (C) MENU ITEMS -->
-    <div id="hamitems">
-      <a href="home.html" class="current">Welcome</a>
-      <a href="history.html">History</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Conatct</a>
-    </div>
-  </nav>
-  <section>
-    <div id="hero-image"></div>
-  </section>
+        <section class="header">
+            <nav>
+                <div class="logo">
+                <a href="home.html">QUEEN CLUB</a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
     </header>
     <section id="welcome-page">
             <h1 id="page-title">Welcome Queen Family</h1>
