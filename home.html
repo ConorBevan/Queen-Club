@@ -12,26 +12,26 @@
 </head>
 <body>
     <header>
-        <section class="header-main">
-            <nav>
-                <div class="logo">
-                <a href="home.html">QUEEN CLUB</a>
-                </div>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="history.html">History</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Queen Club</label>
+            <ul class="menu">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="hero-image"></div>
+        </section>   
     </header>
 
     <section class="welcome-page">
-        <h1 id="page-title">Welcome Queen Family</h1>
+        <h1 id="page-title">Welcome</h1>
             <div id="welcome-text">
                 <div>
                     <p>This site is an ever-evolving resource to provide the most comprehensive and up-to-date
@@ -82,9 +82,9 @@
     <script src="https://kit.fontawesome.com/c939e03c3f.js" crossorigin="anonymous"></script>
 
     <script>
-        var navLinks = document.getElementById("navLinks");
+     var navLinks = document.getElementById("navLinks");
         function showMenu () {
-            navLinks.style.right = "0px";
+            navLinks.style.right = "0";
         }
         function hideMenu () {
             navLinks.style.right = "-200px";

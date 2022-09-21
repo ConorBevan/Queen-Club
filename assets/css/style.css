@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 /* Headings + Paragraphs */
 
@@ -183,7 +187,7 @@ blockquote cite {
 
 .band-history-video {
     text-align: start;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .video {
@@ -349,10 +353,6 @@ footer {
 
 
 @media  screen and (max-width: 850px) {
-    .nav-links ul li {
-        display: block;
-    }
-
     .nav-links {
         position: absolute;
         background: #0d3562;
@@ -373,38 +373,19 @@ footer {
         cursor: pointer;
     }
 
-    .nav-links ul {
-        padding: 30px;
+    .nav-links ul li {
+        
     }
+
 }
+
 
 @media  screen and (max-width: 650px) {
     #gallery {
         column-count: 1;
     }  
-
-    /* 
-    .nav-links {
-        position: absolute;
-        background: #0d3562;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
     }
 
-    nav .fa {
-        display: block;
-        color: #FEBE10;
-        margin: 10px;
-        font-size: 25px;
-        cursor: pointer;
-    }
-    */
-}
 
 
 @media  screen and (max-width: 450px) {
