@@ -41,7 +41,7 @@ p {
 
   nav {
     background: #0d3562;
-    height: 80px;
+    height: 85px;
     width: 100%;
     font-family: 'Poppins', sans-serif;
    }
@@ -62,7 +62,7 @@ p {
    nav .menu li {
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 5px 10px;
    }
 
    nav .menu li a {
