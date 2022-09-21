@@ -56,6 +56,10 @@ p {
     text-transform: uppercase;
    }
 
+   label.logo a {
+    color: #FEBE10;
+   }
+
    nav .menu {
     float: right;
     margin-right: 20px;
