@@ -3,10 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 
@@ -25,7 +24,6 @@ body {
 p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 100;
 }
 
 
@@ -33,7 +31,7 @@ p {
 /* Header + Nav Menu */
 
 .hero-image {
-    min-height: 90vh;
+    min-height: calc(100vh - 80px);
     width: 100%;
     background-image: url("../images/hero-image3.jpeg");
     background-position: center;
@@ -61,19 +59,37 @@ p {
     margin-right: 20px;
    }
 
+   nav .menu li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   }
+
+   nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   }
+
    nav .menu li a {
     color: white;
     padding: 7px 13px;
     font-size: 17px;
     border-radius: 3px;
     text-transform: uppercase;
- }
+   }
 
- a.active,a:hover {
+   nav .menu li a:hover {
     background: #FEBE10;
-    transition: 0.5s;
-    color: #100c08;
- }
+    color: white;
+   }
+
+   /*
+   nav .menu li .active {
+    background: #FEBE10;
+    color: white;
+   }
+   */
 
  .checkbtn {
     font-size: 30px;
@@ -290,10 +306,6 @@ input[type=text], select, textarea {
     font-family: 'Oswald', sans-serif;
   }
 
-  #thanks {
-    line-height: 250px;
-  }
-
 
 
   /* Footer */
@@ -318,7 +330,7 @@ footer {
     color: #FEBE10;
 }
 
-.social-networks i::after {
+.social-networks li::after {
     color: #FEBE10;
 }
 
@@ -330,39 +342,64 @@ footer {
 
 /* Media Queries */
 
-@media  screen and (max-width: 1200px) {
-    #gallery {
-        column-count: 2;
+@media  screen and (max-width: 950px) {
+    label.logo {
+      font-size: 300%;
+      padding-left: 50px;
     }
-}
-
-
-@media  screen and (max-width: 850px) {
-    .nav-links {
-        position: absolute;
-        background: #0d3562;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
+  
+    nav .menu li a {
+      font-size: 16px;
     }
-
-    nav .fa {
+   }
+  
+   @media  screen and (max-width: 850px) {
+  
+    label.logo {
+      font-size: 300%;
+      padding-left: 50px;
+    }
+  
+    nav .menu li a {
+      font-size: 16px;
+    }
+  
+    .checkbtn {
+      display: block; 
+    }
+  
+    .menu {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #0d3562;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+      z-index: 2;
+      }
+  
+      nav .menu li {
         display: block;
-        color: #FEBE10;
-        margin: 10px;
-        font-size: 25px;
-        cursor: pointer;
-    }
-
-    .nav-links ul li {
-        
-    }
-
-}
+        margin: 50px 0;
+        line-height: 30px;
+      }
+  
+      nav .menu li a {
+        font-size: 20px;
+      }
+  
+      a.hover,a.active {
+        background: none;
+        color: #100c08;
+      }
+  
+      #check:checked ~ .menu {
+        left: 0;
+  
+      }
+   }
 
 
 @media  screen and (max-width: 650px) {

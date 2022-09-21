@@ -12,24 +12,19 @@
 </head>
 <body>
 <header>
-    <section>
-        <nav class="nav-bar">
-            <div class="logo">
-                <a href="home.html">QUEEN CLUB</a>
-                </div>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-    </section>
-</header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Queen Club</label>
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="history.html" class="active">History</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
     <section id="history-page">
             <h1 id="page-title">Band History</h1>
@@ -240,14 +235,5 @@
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c939e03c3f.js" crossorigin="anonymous"></script>
 
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu () {
-            navLinks.style.right = "0";
-        }
-        function hideMenu () {
-            navLinks.style.right = "-200px";
-        }
-    </script>
 </body>
 </html>
