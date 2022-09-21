@@ -15,7 +15,8 @@
     text-align: center;
     margin: 75px 0;
     font-size: 350%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0px;
     color: #FEBE10;
@@ -400,21 +401,32 @@ footer {
         left: 0;
   
       }
+
+      #gallery {
+        column-count: 2;
+    }  
    }
 
 
 @media  screen and (max-width: 650px) {
-    #gallery {
+
+    label.logo {
+        font-size: 250%;
+        padding-left: 50px;
+      }
+
+      #gallery {
         column-count: 1;
-    }  
+       }
+
+       #page-title {
+        font-size: 300%;
+       }
     }
 
 
 
 @media  screen and (max-width: 450px) {
-   #gallery {
-    column-count: 1;
-   }
 
    .logo {
     font-size: 200%;
