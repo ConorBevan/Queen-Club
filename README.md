@@ -15,10 +15,11 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
 
 ![Nav Bar]
 
-- __The hero image__
+- __Landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The fully responsive navigation bar includes links to the Home page, History Page Gallery and Sign Up page and is identical in each of the pages to allow for easy navigation.
+  - The landing page also includes a photograph. 
+  - This section introduces the user to Queen Club. 
 
 ![Landing Page]
 
