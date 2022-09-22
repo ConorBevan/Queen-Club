@@ -16,6 +16,14 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
 
 ![Landing Page](docs/Screenshot1.png)
 
+- __Welcome section__
+
+  - A fully responsive navigation bar that includes links to the Home page, History Page, Gallery and Contact page and is identical in each of the pages to allow for easy navigation.
+  - The landing page also includes a hero-image. 
+  - This page introduces the user to Queen Club. 
+
+![Welcome Section](docs/Screenshot6.png)
+
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Queen. The links will open to a new tab to allow easy navigation for the user. 
@@ -43,6 +51,12 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
 
 ![Videos](docs/Screenshot5.png)
 
+- __History Page__
+
+  - This feature allows users to watch some of the most famous performces by Queen. 
+  - This feature improves user retention on the site. 
+
+![History Page](docs/Screenshot7.png)
 
 ### Features Left to Implement
 
