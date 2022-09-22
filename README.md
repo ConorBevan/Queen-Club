@@ -14,34 +14,34 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
   - The landing page also includes a hero-image. 
   - This page introduces the user to Queen Club. 
 
-![Landing Page] 
+![Landing Page](Screenshot1.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Queen. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to follow alomg on all socila platform and stay up to date with the latest news abouyt Queen.
 
-![Footer]
+![Footer](Screenshot2.png)
 
 - __Gallery__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery]
+![Gallery](Screenshot3.png)
 
 - __Contact Form__
 
   - This page will allow the user to submit their perosnal information such as an email to allow Queen Club to keep in conatact about any first hand photos of queen, along with a section to write your fan stories
 
-![Contact Form]
+![Contact Form](Screenshot4.png)
 
 - __Embedded Videos__
 
   - This feature allows users to watch some of the most famous performces by Queen. 
   - This feature improves user retention on the site. 
 
-![Videos]
+![Videos](Screenshot5.png)
 
 
 ### Features Left to Implement
