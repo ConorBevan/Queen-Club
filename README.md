@@ -97,7 +97,9 @@ Another issue I came across was I had a form action embeded within another form 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 - Lighthouse
-  - No errors were found when passing through the official [(Lighthouse) validator] 
+  - here is my website score when passed through the official Lighthouse extension report. 
+
+  ![Lighthouse](docs/Screenshot8.png)
 
 ## Unfixed Bugs
 
@@ -111,7 +113,7 @@ I haven't come acorss any unfixed bugs ro make note of.
 - From the source section drop-down menu, select the main branch
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - 
+The live link can be found here -  https://conorbevan.github.io/Queen-Club/ 
 
 
 # Credits 
