@@ -4,6 +4,23 @@ Queen Club is a website that has been cretased for the fans of the the iconic ro
 
 ![Responsice Mockup] 
 
+### User Goals
+
+- Visually appealing.
+- Eassy to navigate around site.
+- Quality content about Queen.
+
+### User Stories
+
+- As a user I, want to get good information about the band Queen.
+- As a user I, want to be able to seamlessly navigate between pages. 
+- As a user I, want to be able to view the webiste on any device and have same seamless navigation.
+
+### Site Owner Goals 
+
+- Promote the legacy of Queen 
+- Introduce new fans to the bands history 
+
 ## Features 
 
 ### Existing Features
@@ -103,10 +120,11 @@ The live link can be found here -
 
 - ### For Code Feature Inspiration 
 - https://www.w3schools.com/howto/howto_css_contact_form.asp
-- https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
-- https://www.technologywang.com/2022/06/How-To-Create-Responsive-Navigation-Bar-using-HTML--CSS-5681.html
+- hoiw to create a check box hmaburger menu was taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
+- The styling for my navigation menu for small devices was taken from https://www.technologywang.com/2022/06/How-To-Create-Responsive-Navigation-Bar-using-HTML--CSS-5681.html
 
-### For Content and style inspiration
+### For Content and design inspiration
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- for the font style i used https://fonts.google.com/ 
 - https://www.queenpedia.com/index.php?title=Welcome....
 - https://en.wikipedia.org/wiki/Queen_(band)
