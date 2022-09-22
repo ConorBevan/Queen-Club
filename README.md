@@ -2,7 +2,7 @@
 
 Queen Club is a website that has been created for the fans of the the iconic rock band Queen. The site main function to be used to educate anyone who visits the site. The site is targeted towards fans of Queen looking to refresh memories or learn some new information about the iconic rock band. 
 
-![Responsice Mockup] 
+![Responsice Mockup](docs/Screenshot9.png)
 
 ### User Goals
 
