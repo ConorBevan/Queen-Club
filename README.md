@@ -22,9 +22,9 @@ Queen Club is a website that has been created for the fans of the the iconic roc
 - Hopefully introduce new fans to the band fandom. 
 
 
-## Features 
+# Features 
 
-### Existing Features
+## Existing Features
 
 - __Landing page__
 
@@ -73,12 +73,12 @@ Queen Club is a website that has been created for the fans of the the iconic roc
 
 ![History Page](docs/Screenshot7.png)
 
-### Features Left to Implement
+## Features Left to Implement
 
 - Fan stories under the gallery will be a section implemented in the future. 
 
 
-## Testing 
+# Testing 
 
 I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes. Easy navigation. All links work on the site also.
  
@@ -88,7 +88,7 @@ I was having issues with my initial hamburger navigation menu for smaller device
 
 Another issue I came across was I had a form action embeded within another form action which wouldn't allow my thank you page to work after submitting a contact form. But this issue was rectified after some research on how to fix this issue.
 
-### Validator Testing 
+## Validator Testing 
 
 - HTML
   - No errors on any of my pages html when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
@@ -99,12 +99,12 @@ Another issue I came across was I had a form action embeded within another form 
 - Lighthouse
   - No errors were found when passing through the official [(Lighthouse) validator] 
 
-### Unfixed Bugs
+## Unfixed Bugs
 
-I haven't come acorss any unfixed bugs from my testing so far. 
+I haven't come acorss any unfixed bugs ro make note of. 
 
 
-## Deployment 
+# Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
 - In the GitHub repository, navigate to the Settings tab 
@@ -114,17 +114,15 @@ I haven't come acorss any unfixed bugs from my testing so far.
 The live link can be found here - 
 
 
-## Credits 
-
-(In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.)
+# Credits 
 
 ### For Code Feature Inspiration 
-- https://www.w3schools.com/howto/howto_css_contact_form.asp
+- To help with creating my conatc form https://www.w3schools.com/howto/howto_css_contact_form.asp
 - hoiw to create a check box hmaburger menu was taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
 - The styling for my navigation menu for small devices was taken from https://www.technologywang.com/2022/06/How-To-Create-Responsive-Navigation-Bar-using-HTML--CSS-5681.html
 
 ### For Content and design inspiration
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- for the font style i used https://fonts.google.com/ 
-- https://www.queenpedia.com/index.php?title=Welcome....
-- https://en.wikipedia.org/wiki/Queen_(band)
+- for the font style I imported was from https://fonts.google.com/ 
+- Used for history page content https://www.queenpedia.com/index.php?title=Welcome....
+- Used for history page content https://en.wikipedia.org/wiki/Queen_(band)
