@@ -397,13 +397,12 @@ footer {
       }
   
       a.hover,a.active {
-        background: none;
-        color: #100c08;
+        background: #192841;
+        color: white;
       }
   
       #check:checked ~ .menu {
         left: 0;
-  
       }
 
       #gallery {
@@ -413,11 +412,6 @@ footer {
 
 
 @media  screen and (max-width: 650px) {
-
-    label.logo {
-        font-size: 250%;
-        padding-left: 50px;
-      }
 
       #gallery {
         column-count: 1;
@@ -431,11 +425,6 @@ footer {
 
 
 @media  screen and (max-width: 450px) {
-
-   .logo {
-    font-size: 200%;
-    margin-top: 0px;
-   }
 
    #page-title {
     font-size: 300%;
