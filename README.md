@@ -1,25 +1,26 @@
 # Queen Club
 
-Queen Club is a website that has been cretased for the fans of the the iconic rock band Queen. Its is meant to be used to educate. The site is targeted towards fans of Queen looking to reel back the years or learn some new information about the band. The gallery is where fans can add their perosonal touch to the site sending in photos that can be added accordingly to the site. 
+Queen Club is a website that has been created for the fans of the the iconic rock band Queen. The site main function to be used to educate anyone who visits the site. The site is targeted towards fans of Queen looking to refresh memories or learn some new information about the iconic rock band. 
 
 ![Responsice Mockup] 
 
 ### User Goals
 
 - Visually appealing.
-- Eassy to navigate around site.
-- Quality content about Queen.
+- Easy to navigate between pages.
+- To present quality content about the rock band Queen.
 
 ### User Stories
 
-- As a user I, want to get good information about the band Queen.
+- As a user I, want to get insightful information about the rock band Queen.
 - As a user I, want to be able to seamlessly navigate between pages. 
-- As a user I, want to be able to view the webiste on any device and have same seamless navigation.
+- As a user I, want to be able to view the webiste on any device and have user friendly navigation.
 
 ### Site Owner Goals 
 
-- Promote the legacy of Queen 
-- Introduce new fans to the bands history 
+- Promote the career/legacy of Queen.
+- Hopefully introduce new fans to the band fandom. 
+
 
 ## Features 
 
@@ -29,65 +30,63 @@ Queen Club is a website that has been cretased for the fans of the the iconic ro
 
   - A fully responsive navigation bar that includes links to the Home page, History Page, Gallery and Contact page and is identical in each of the pages to allow for easy navigation.
   - The landing page also includes a hero-image. 
-  - This page introduces the user to Queen Club. 
 
 ![Landing Page](docs/Screenshot1.png)
 
 - __Welcome section__
 
-  - This section welcomes the user to the site 
-  - Theres also a quote section below the welcomes section which changes each month using a famous quote from the band 
+  - This section introduces the user to what Queen Club is about.  
+  - Theres also a quote section below the site introduction which changes each month using famous quotes from the band members. 
 
 ![Welcome Section](docs/Screenshot6.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Queen. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to follow alomg on all socila platform and stay up to date with the latest news abouyt Queen.
+  - The footer is valuable to the user as it encourages them to follow along on all social media platforms and stay up to date with the latest news about Queen.
 
 ![Footer](docs/Screenshot2.png)
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The gallery will provide the user with images from Queens career.
+  - This section is valuable to the user as it gives a visual image of the band.
 
 ![Gallery](docs/Screenshot3.png)
 
 - __Contact Form__
 
-  - This page will allow the user to submit their perosnal information such as an email to allow Queen Club to keep in conatact about any first hand photos of queen, along with a section to write your fan stories
+  - This page will allow the user to submit their perosnal information such as an email to allow Queen Club to get in conatact about any personal photos fans m ight have of Queen, along with a stories text area for fans to write about encouters or experiences they had with the band for when the story section is implemented in then future.
 
 ![Contact Form](docs/Screenshot4.png)
 
 - __Embedded Videos__
 
   - This feature allows users to watch some of the most famous performces by Queen. 
-  - This feature improves user retention on the site. 
+  - This feature improves user experience. 
 
 ![Videos](docs/Screenshot5.png)
 
 - __History Page__
 
-  - This feature is the heart of the site as it gives a full rundown of the bands career from the beginning to present day events.
+  - This feature is the heart of the site as it gives a full breakdown of the bands career from the beginning to present day.
 
 ![History Page](docs/Screenshot7.png)
 
 ### Features Left to Implement
 
-- Fan stories under the gallery  will be a slide feature where ypu can move right or left to personal storiers eent in by the fans through the conatc page section.
+- Fan stories under the gallery will be a section implemented in the future. 
+
 
 ## Testing 
 
-I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes. It allows the user to navigate around easily. All links work on the site also.
+I feel that the site has hit the goals required by all parties. The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes. Easy navigation. All links work on the site also.
  
+I encountered one issue worth of notice.
 
-I have encountered several issues during testing.
+I was having issues with my initial hamburger navigation menu for smaller devices, it was was overflowing onto my mian site because I had it off to the right at -200px at a media query max-width of 850px. So when I would test it out on smaller screen devices it overflowing so I changed this to -100% after a few attempts of fiddling round with the css code and this fixed the issue on all screen sizes, no more overflowing on any of my pages on the site.
 
-I was having issues with my initial hamburger navigation menu for smaller devices, it was was overflowing onto my mian site because i had it off to the right at -200px at a medis query max-width of 850px. So when I would use a smaller screen to test it was overflowing so i chnaged this to -100%a and this fixed the issue on all screen sizes, no more overflowing onto my main page content.
-
-When trying to send my conatact page to thnak you page it was not working, so
-
+Another issue I came across was I had a form action embeded within another form action which wouldn't allow my thank you page to work after submitting a contact form. But this issue was rectified after some research on how to fix this issue.
 
 ### Validator Testing 
 
@@ -102,14 +101,15 @@ When trying to send my conatact page to thnak you page it was not working, so
 
 ### Unfixed Bugs
 
-An unfixed bug i didn't get to complete was the conatct form submit button sending to another page.
+I haven't come acorss any unfixed bugs from my testing so far. 
+
 
 ## Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the main branch
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- In the GitHub repository, navigate to the Settings tab 
+- From the source section drop-down menu, select the main branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - 
 
