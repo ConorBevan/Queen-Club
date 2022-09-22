@@ -92,10 +92,10 @@ When trying to send my conatact page to thnak you page it was not working, so
 ### Validator Testing 
 
 - HTML
-  - No errors on any of my pages html when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors on any of my pages html when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 - Lighthouse
   - No errors were found when passing through the official [(Lighthouse) validator] 
@@ -118,7 +118,7 @@ The live link can be found here -
 
 (In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.)
 
-- ### For Code Feature Inspiration 
+### For Code Feature Inspiration 
 - https://www.w3schools.com/howto/howto_css_contact_form.asp
 - hoiw to create a check box hmaburger menu was taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
 - The styling for my navigation menu for small devices was taken from https://www.technologywang.com/2022/06/How-To-Create-Responsive-Navigation-Bar-using-HTML--CSS-5681.html

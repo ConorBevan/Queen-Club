@@ -122,7 +122,6 @@ p {
 #welcome-text {
     padding-top: 0;
     width: 50%;
-    float: center;
     margin: auto;
 }
 
@@ -184,7 +183,6 @@ blockquote cite {
 #history-text {
     padding-top: 0;
     width: 50%;
-    float: center;
     margin: auto;
 }
 
@@ -251,7 +249,6 @@ img:hover {
 #contact-info {
     padding-top: 0;
     width: 50%;
-    float: center;
     margin: auto;
 }
 
@@ -312,6 +309,14 @@ input[type=text], select, textarea {
     font-family: 'Oswald', sans-serif;
   }
 
+
+
+  /* Thanks */
+
+  #thanks {
+    display: block;
+    margin-bottom: 300px;
+  }
 
 
   /* Footer */
