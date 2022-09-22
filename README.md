@@ -18,9 +18,8 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
 
 - __Welcome section__
 
-  - A fully responsive navigation bar that includes links to the Home page, History Page, Gallery and Contact page and is identical in each of the pages to allow for easy navigation.
-  - The landing page also includes a hero-image. 
-  - This page introduces the user to Queen Club. 
+  - This section welcomes the user to the site 
+  - Theres also a quote section below the welcomes section which changes each month using a famous quote from the band 
 
 ![Welcome Section](docs/Screenshot6.png)
 
@@ -53,9 +52,8 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
 
 - __History Page__
 
-  - This feature allows users to watch some of the most famous performces by Queen. 
-  - This feature improves user retention on the site. 
-
+  - This feature is the heart of the site as it gives a full rundown of the bands career from the beginning to present day events.
+  
 ![History Page](docs/Screenshot7.png)
 
 ### Features Left to Implement
