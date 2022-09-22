@@ -8,9 +8,7 @@
     box-sizing: border-box;
 }
 
-
 /* Headings + Paragraphs */
-
 #page-title {
     text-align: center;
     margin: 75px 0;
@@ -27,10 +25,7 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 /* Header + Nav Menu */
-
 .hero-image {
     min-height: calc(100vh - 80px);
     width: 100%;
@@ -90,13 +85,6 @@ p {
     color: white;
    }
 
-   /*
-   nav .menu li .active {
-    background: #FEBE10;
-    color: white;
-   }
-   */
-
  .checkbtn {
     font-size: 30px;
     color: #FEBE10;
@@ -111,10 +99,7 @@ p {
     display: none;
    }
 
-
-
 /* Home Page */
-
 #welcome-page {
     height: 800px;
 }
@@ -165,10 +150,7 @@ blockquote cite {
     top: 120%;
 }
 
-
-
 /* Band History Page */
-
 #history-page {
     display: block;
     margin-bottom: 150px;
@@ -201,17 +183,13 @@ blockquote cite {
     align-items: center;
 }
 
-
 .band-heading {
     margin-top: 50px;
     margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 /* Gallery */
-
 #gallery {
     line-height: 0;
     column-count:3;
@@ -242,10 +220,7 @@ img:hover {
     cursor: pointer;
 }
 
-
-
 /* Conatct Page */
-
 #contact-info {
     padding-top: 0;
     width: 50%;
@@ -309,18 +284,13 @@ input[type=text], select, textarea {
     font-family: 'Oswald', sans-serif;
   }
 
-
-
   /* Thanks */
-
   #thanks {
     display: block;
     margin-bottom: 300px;
   }
 
-
   /* Footer */
-
 footer {
     height: 50px;
 }
@@ -349,10 +319,7 @@ footer {
     opacity: 0.7;
 }
 
-
-
 /* Media Queries */
-
 @media  screen and (max-width: 950px) {
     label.logo {
       font-size: 300%;
@@ -365,7 +332,6 @@ footer {
    }
   
    @media  screen and (max-width: 850px) {
-  
     label.logo {
       font-size: 300%;
       padding-left: 50px;
@@ -415,9 +381,7 @@ footer {
     }  
    }
 
-
 @media  screen and (max-width: 650px) {
-
       #gallery {
         column-count: 1;
        }
@@ -427,10 +391,7 @@ footer {
        }
     }
 
-
-
 @media  screen and (max-width: 450px) {
-
    #page-title {
     font-size: 300%;
    }
