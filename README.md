@@ -41,7 +41,7 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
   - This feature allows users to watch some of the most famous performces by Queen. 
   - This feature improves user retention on the site. 
 
-![Videos](Screenshot5.png)
+![Videos](docs/Screenshot5.png)
 
 
 ### Features Left to Implement
