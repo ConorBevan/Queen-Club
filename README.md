@@ -14,7 +14,7 @@ Queen Club is a website that has been cretasedf as hub for the fans of the the i
   - The landing page also includes a hero-image. 
   - This page introduces the user to Queen Club. 
 
-![Landing Page]
+![Landing Page] (https://user-images.githubusercontent.com/110097838/191716419-50571a99-c743-4b5a-93d0-318a1653dbab.png)
 
 - __The Footer__ 
 
