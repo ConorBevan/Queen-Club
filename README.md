@@ -119,12 +119,12 @@ The live link can be found here -  https://conorbevan.github.io/Queen-Club/
 # Credits 
 
 ### For Code Feature Inspiration 
-- To help with creating my conatc form https://www.w3schools.com/howto/howto_css_contact_form.asp
-- hoiw to create a check box hmaburger menu was taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
-- The styling for my navigation menu for small devices was taken from https://www.technologywang.com/2022/06/How-To-Create-Responsive-Navigation-Bar-using-HTML--CSS-5681.html
+- To help with creating my contact form https://www.w3schools.com/howto/howto_css_contact_form.asp
+- To help create a check box hamburger menu was taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ 
+- How to make my nav menu appear from the left and media query code help https://www.technologywang.com/2022/06/How-To-Create-Responsive-Navigation-Bar-using-HTML--CSS-5681.html
 
 ### For Content and design inspiration
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- for the font style I imported was from https://fonts.google.com/ 
+- For the font style I imported was from https://fonts.google.com/ 
 - Used for history page content https://www.queenpedia.com/index.php?title=Welcome....
 - Used for history page content https://en.wikipedia.org/wiki/Queen_(band)
